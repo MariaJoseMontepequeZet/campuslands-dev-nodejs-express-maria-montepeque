@@ -10,7 +10,7 @@ function readSpec(model) {
     }
 
     const safeModel = path.normalize(model.trim()).replace(/^(\.\.[/\\])+/, "");
-    const filePath = path.join(SPECS_DIR, `${safeModel}.txt`);
+    const filePath = path.join(SPECS_DIR, `${safeModel}.sql`);
     const relative = path.relative(SPECS_DIR, filePath);
 
     if (relative.startsWith("..") || path.isAbsolute(relative)) {

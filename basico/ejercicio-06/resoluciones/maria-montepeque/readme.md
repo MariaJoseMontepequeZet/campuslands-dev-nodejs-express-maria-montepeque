@@ -30,6 +30,10 @@ npm run dev
 
 ![alt text](image.png)
 
-```node src/app.js "../../package"```
+```node src/app.js ninja400"```
 
 ![alt text](image-1.png)
+
+```node src/app.js "../../package"```
+
+![alt text](image-2.png)
