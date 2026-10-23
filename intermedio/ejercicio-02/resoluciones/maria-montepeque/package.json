@@ -1,0 +1,14 @@
+{
+    "name": "intermedio-ejercicio-02-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 02 - routers modulares (tematica shooters competitivos)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
